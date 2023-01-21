@@ -1,0 +1,28 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    float: left;
+    margin-left: 50px;
+}
+
+.urles {
+    float: right;
+    margin-top: 55px;
+    margin-right: 100px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+.contacts {
+    margin: 50px;
+}
+
+.lk {
+    margin: 50px;
+    margin-right: 130px;
+}

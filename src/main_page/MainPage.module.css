@@ -1,0 +1,29 @@
+.main_content {
+    margin-top: 200px;
+    margin-left: 100px;
+    float: left;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 50px;
+    color: #023838;
+}
+
+.company_name {
+    color: #8FD5D5;
+}
+
+.description {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.rocket {
+    float: right;
+    width: 350px;
+    height: 350px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
