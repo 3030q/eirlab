@@ -1,0 +1,109 @@
+.diary_modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0,0.5);
+}
+
+.diary_modal_content {
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    min-width: 450px;
+}
+
+.diary_modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_form {
+    padding: 10px;
+    border: 1px solid #7FB4B9;
+    margin-bottom: 20px;
+}
+
+.input_analises_type {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin-right: 10px;
+    border: 1px solid #7FB4B9;
+}
+
+.input_value_analises {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin-right: 10px;
+    border: 1px solid #7FB4B9;
+
+}
+
+.analise_add_btn {
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #7FB4B9;
+}
+
+.analise_add_btn:hover {
+    background-color: #7FB4B9;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.list_item {
+    padding: 5px;
+    border: 1px solid #7FB4B9;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.list_item:hover {
+    background-color: #7FB4B9;
+    color: white;
+}
+
+
+
+.list {
+
+}
+
+.analyze_value {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin-right: 10px;
+    border: 1px solid #7FB4B9;
+}
+
+table {
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: #7FB4B9;
+}
+
+th {
+    border: 1px solid white;
+    font-weight: normal;
+}
+
+td {
+    border: 1px solid white;
+    font-weight: normal;
+}
+

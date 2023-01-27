@@ -1,0 +1,78 @@
+.register_modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0,0.5);
+}
+
+.register_modal_content {
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    min-width: 450px;
+}
+
+.register_modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+}
+
+.title {
+    text-align: center;
+}
+
+.register_input {
+    display: block;
+    margin-top: 20px;
+    margin-left: 125px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.butt {
+    margin-left: 155px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px;
+    background: white;
+    border: 1px solid grey;
+}
+
+.reg {
+    text-decoration: underline;
+    text-decoration-color: #8FD5D5;
+    float: right;
+    display: inline;
+    margin-right: 100px;
+
+}
+
+.log {
+    float: left;
+    margin-left: 120px;
+}
+
+.log:hover {
+    text-decoration: underline;
+    text-decoration-color: #8FD5D5;
+}
+
+.butt:hover {
+    color: white;
+    background-color: #8FD5D5;
+    border: 1px solid #8FD5D5;
+}
+

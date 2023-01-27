@@ -1,0 +1,79 @@
+.analysis_modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0,0.5);
+
+
+}
+
+.analysis_modal_content {
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    min-width: 700px;
+    max-width: 700px;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+.analysis_modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 40px;
+    margin-left: 250px;
+}
+
+.textik {
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.purpose {
+
+}
+
+
+.map {
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.cost {
+    border-radius: 15px;
+    padding: 10px 30px;
+    background-color: #7FB4B9;
+    color: white;
+    margin-left: 260px;
+    border: 2px solid #7FB4B9;
+}
+
+.redirect {
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-left: 45px;
+    border: 2px solid #7FB4B9;
+    background-color: white;
+}
+
+.redirect:hover {
+    background-color: #7FB4B9;
+    color: white;
+}
+
+

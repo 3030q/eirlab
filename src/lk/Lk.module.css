@@ -1,0 +1,76 @@
+
+.main_content {
+    width: 900px;
+    height: 500px;
+    background-color: wheat;
+    border-radius: 30px;
+    margin-left: 270px;
+    margin-top: 100px;
+
+
+}
+
+.user_img {
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    margin: 30px 50px;
+    float: left;
+}
+
+.user {
+    padding-top: 70px;
+}
+
+.user_name {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.user_email {
+
+}
+
+.history {
+    margin-top: 20px;
+    text-align: center;
+}
+.history_span {
+    margin-right: 250px;
+}
+
+table {
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: #7FB4B9;
+}
+
+th {
+    border: 1px solid white;
+    font-weight: normal;
+}
+
+td {
+    border: 1px solid white;
+    font-weight: normal;
+}
+
+.diary {
+    margin-top: 80px;
+    float: right;
+    margin-right: 90px;
+}
+
+.diary_btn {
+    padding: 5px 50px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid #7FB4B9;
+}
+
+.diary_btn:hover {
+    background-color: #7FB4B9;
+    color: white;
+}
