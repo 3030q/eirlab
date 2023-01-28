@@ -6,7 +6,7 @@ import doge from "../doge.png"
 import DiaryModal from "../diaryModal/DiaryModal";
 
 const Lk = () => {
-    const [historyItem, setHistoryItem] = useState([{date:"18/12/22", name: "Vitamin D", url:"https://google.com", city:"Moscow"}])
+    const [historyItem, setHistoryItem] = useState([{date:"28/01/2022", name: "Оценка состояния микробиоты толстого кишечника методом ПЦР. КОЛОНОФЛОР-16 (метаболизм)", url:"https://www.invitro.ru/analizes/for-doctors/3063/61377/", city:"Екатеринбург"}])
     const [diaryModal, setDiaryModal] = useState(false)
     localStorage.setItem("userName", "Nikita Rybin")
     localStorage.setItem("email", "nikitarybin888@gmail.com")
